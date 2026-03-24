@@ -57,19 +57,31 @@ This project combines **Natural Language Processing (NLP)** with a **rule-based 
 scam_detector_project/
 │
 ├── detector/
-│ ├── templates/
-│ │ └── detector/index.html
-│ ├── model/
-│ │ ├── model.pkl
-│ │ └── vectorizer.pkl
-│ ├── views.py
-│ ├── forms.py
-│ ├── utils.py
-│ └── urls.py
+│   ├── migrations/
+│   │
+│   ├── templates/
+│   │   └── detector/
+│   │       └── index.html
+│   │
+│   ├── model/
+│   │   ├── model.pkl
+│   │   └── vectorizer.pkl
+│   │
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── forms.py
+│   ├── models.py
+│   ├── utils.py
+│   ├── views.py
+│   └── urls.py
 │
 ├── scam_detector_project/
-│ ├── settings.py
-│ ├── urls.py
+│   ├── __init__.py
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
 │
-├── manage.py
-└── db.sqlite3
+├── db.sqlite3
+└── manage.py
